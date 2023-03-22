@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Alexandria');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Alexandria;
+    background-color: ivory;
+}
+
+@media (max-width: 400px) {
+
+    .center-text {
+        text-align: center;
+    }
+
+    .nav-bar-ctn {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .nav-link {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgb(130, 130, 255);
+        border: 1px black solid;
+        text-decoration: none;
+        color: black;
+        border-radius: 16px;
+    }
+    .nav-link:hover {
+        background-color: rgb(195, 195, 252);
+        box-shadow: 2px 2px;
+    }
+
+    .search-bar {
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .phone-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0;
+        gap: 10px;
+        border: 1px black solid;
+        border-radius: 16px;
+        margin: 10px; 
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,186,255,1) 12%, rgba(186,237,247,1) 61%);
+    }
+    .phone-list-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0;
+        padding: 5px;
+        gap: 10px;
+        border: 1px black solid;
+        border-radius: 16px;
+        margin: 10px;  
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(181,186,255,1) 13%, rgba(181,186,255,1) 83%, rgba(0,0,0,1) 100%); 
+        height: 225px;
+    }
+    .phone-link {
+        text-decoration: none;
+        color: black;
+    }
+    .phone-details-price {
+        text-decoration: underline;
+    }
+
+    .phone-search-img {
+        height: 50vw;
+    }
+    .phone-details-img {
+        width: 80vw;
+    }
+    .spinner {
+        text-align: center;
+    }
+
+    .phone-details-tech-list {
+        width: 75%;
+        list-style-type: none;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .phone-details-tech-list div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 401px) {
+
+    .center-text {
+        text-align: center;
+    }
+
+    .nav-bar-ctn {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    .nav-link {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        background-color: rgb(130, 130, 255);
+        border: 1px black solid;
+        text-decoration: none;
+        color: black;
+        border-radius: 16px;
+    }
+    .nav-link:hover {
+        background-color: rgb(195, 195, 252);
+        box-shadow: 2px 2px;
+    }
+
+    .search-bar {
+        text-align: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+    .search-bar input {
+        width: 80vw;
+        padding: 25px 50px;
+        font-size: 30px;
+    }
+
+    .phone-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0;
+        gap: 10px;
+        border: 1px black solid;
+        border-radius: 16px;
+        margin: 10px; 
+        padding: 40px;
+        background: rgb(2,0,36);
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(181,186,255,1) 12%, rgba(186,237,247,1) 61%);
+    }
+    .phone-list-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+        padding-left: 0;
+        padding: 5px;
+        gap: 10px;
+        border: 1px black solid;
+        border-radius: 16px;
+        margin: 10px;  
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(181,186,255,1) 13%, rgba(181,186,255,1) 83%, rgba(0,0,0,1) 100%); 
+        width: 30vw;
+    }
+    .search-list-ctn {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .phone-link {
+        text-decoration: none;
+        color: black;
+    }
+    .phone-details-price {
+        text-decoration: underline;
+    }
+    .spinner {
+        text-align: center;
+    }
+
+    .phone-search-img {
+        height: 25vw;
+    }
+    .phone-details-img {
+        width: 35vw;
+    }
+    .phone-details-description {
+        width: 50%;
+    }
+
+    .phone-details-tech-list {
+        width: 40%;
+        list-style-type: none;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .phone-details-tech-list div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
